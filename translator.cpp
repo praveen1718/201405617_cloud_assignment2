@@ -38,7 +38,7 @@ int main ()
     // line 14
     some;
     int j = 0; 
-    while(i < (int) cal)
+    while(j< (int) cal)
     {
         
         if (tmp[j] == 'e') tmp[j] = 'r';
@@ -72,11 +72,11 @@ int main ()
 
     // copy next 6 lines
     int l = 0; 
-    while(i < 6)
+    while(l< 6)
     {
         some;
         cout << tmp << endl;
-        i++;
+        l++;
     }
 
     return 0;
